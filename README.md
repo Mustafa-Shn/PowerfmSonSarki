@@ -2,7 +2,7 @@
 ## AND WRITES TO EXCEL FILE.
 
 
-### USAGE
+### USAGE :
 
 #### Import Pandas, Requests and BeautifulSoup
 
