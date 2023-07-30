@@ -38,11 +38,9 @@ if __name__ == "__main__":
 
         # We are getting data, last row's last cell
         son_satir = df_mevcut.iloc[-1]
-        time_control_veri = son_satir['Time']
         sarki_control_veri = son_satir['Last Played Song']
 
         # We are checking if last played song already in last row in Excel, if there is not; we are updating Excel file.
-        #if time_control_veri != datetime:
         if sarki_control_veri != Sarki:
             yeni_veri = {"Last Played Song": singer+" - "+song, "Time": datetime}
             df_yeni = pd.DataFrame([yeni_veri])
